@@ -1,0 +1,116 @@
+[
+  {
+    "pid": "2eb08476-dfa7-46ae-a305-d6919a2589de",
+    "pname": "Hand sanitizer(Biotol)",
+    "pimage": "https://cdn.shopify.com/s/files/1/0313/6539/8667/products/biotol-advanced-hand-sanitizer-250ml-693105_700x700.jpg?v=1607594510",
+    "price": "1000"
+  },
+  {
+    "pid": "17fa4565-5c09-4f8c-a2cb-f29a1965f1b3",
+    "pname": "Hand sanitizer(Purell)",
+    "pimage": "https://d.newsweek.com/en/full/1571737/make-your-own-hand-sanitizer.jpg",
+    "price": "1000"
+  },
+  {
+    "pid": "0f6d5829-c72b-4bf9-9d97-21b51b4d5b0b",
+    "pname": "Hand sanitizer(Sante)",
+    "pimage": "https://www.olado.rw/datascripts/images/listings/olado/HE200424SU113152795N_ZOOM_1.jpg",
+    "price": "1000"
+  },
+  {
+    "pid": "1a6d75e9-892f-4bf7-aa78-9e26cd6bb1cc",
+    "pname": "Bath tissue(Supa)",
+    "pimage": "https://avectime.com/personal%20care/pads/images/pad2.jpg",
+    "price": "500"
+  },
+  {
+    "pid": "835ba9b7-654e-4feb-9c30-0acd48fb8bee",
+    "pname": "Baking soda",
+    "pimage": "https://media.nedigital.sg/fairprice/images/a26569f3-4e69-4d7f-858b-9e16f9d99e9f/L3_BakingPowderSoda_231121.jpg",
+    "price": "2000"
+  },
+  {
+    "pid": "f366bffb-52f0-44c8-afc8-bcbd3f8cff27",
+    "pname": "Bath tissue(Clear)",
+    "pimage": "https://cdn.shopify.com/s/files/1/0313/6539/8667/products/Toilet-paper--342x390.jpg?v=1607594647",
+    "price": "500"
+  },
+  {
+    "pid": "4bd52dd3-1c57-4ce1-b991-867d064874fa",
+    "pname": "Dish soap",
+    "pimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq6WHl49FzQarRFYwThYhKyhDWy_dEtBD4cwxExlSUYhrgRowY-5EKxdt345cTYWsw1zc&usqp=CAU",
+    "price": "4500"
+  },
+  {
+    "pid": "346c775d-2a95-4fe8-9519-9505d3618b77",
+    "pname": "Disinfecting wipes",
+    "pimage": "https://www.ubuy.vn/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvODFxaCswazlnS0wuX0FDX1NMMTUwMF8uanBn.jpg",
+    "price": "3500"
+  },
+  {
+    "pid": "22890960-e1d7-474a-9881-f6f5ee5df660",
+    "pname": "Facial tissues",
+    "pimage": "https://static2.mumzworld.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/a/b/abyd-pu4ft21-bcleen-premium-facial-tissue-paper-140-sheets-x-2ply-150-sheets-pack-of-1-1614595658.jpg",
+    "price": "3500"
+  },
+  {
+    "pid": "25749d2c-4d23-46e4-ac2f-28b3455257eb",
+    "pname": "Floor cleaning solution",
+    "pimage": "https://www.starbrite.co.uk/wp-content/uploads/2020/05/5L-Free-Flow-1200x1410.png",
+    "price": "2500"
+  },
+  {
+    "pid": "476edac9-a176-44fc-8028-9bca9efb468c",
+    "pname": "Glass/window cleaner",
+    "pimage": "https://images.heb.com/is/image/HEBGrocery/000790767",
+    "price": "2500"
+  },
+  {
+    "pid": "144c1bf6-cb77-4565-849a-569089daf9d7",
+    "pname": "Gloves (disposable)",
+    "pimage": "https://www.ubuy.vn/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNjFZelpOSTVVNkwuX0FDX1NMMTAwMF8uanBn.jpg",
+    "price": "2500"
+  },
+  {
+    "pid": "e29c439f-5b8d-4ef7-b8fe-318a49ca264b",
+    "pname": "Gloves (reusable)",
+    "pimage": "https://4.imimg.com/data4/YQ/KY/MY-23257013/reusable-latex-rubber-hand-gloves-hands-safety-500x500.jpg",
+    "price": "2500"
+  },
+  {
+    "pid": "47afa08a-6823-4577-97d5-b1bc28576102",
+    "pname": "Hand soap",
+    "pimage": "https://cdn.shopify.com/s/files/1/0313/6539/8667/products/vague-marine-pc-248862_700x700.jpg?v=1595113848",
+    "price": "2500"
+  },
+  {
+    "pid": "ab482b36-c7f3-48a3-8d13-336c2c61a2f7",
+    "pname": "Microfiber cleaning cloths",
+    "pimage": "https://m.media-amazon.com/images/I/81wUWVAiWDL._AC_SL1500_.jpg",
+    "price": "2500"
+  },
+  {
+    "pid": "4f866834-89ac-43fa-acfc-31d036d7bed7",
+    "pname": "Paper towels",
+    "pimage": "https://cdn.shopify.com/s/files/1/0047/2576/8281/products/single-tear-paper-towel-holder-2.jpg?v=1554691538",
+    "price": "2500"
+  },
+  {
+    "pid": "80b69b86-27d8-4042-9b5d-7311a597f6fb",
+    "pname": "Dry mop",
+    "pimage": "https://www.ubuy.com.tr/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvODFhd1FYZ1hscUwuX0FDX1NMMTUwMF8uanBn.jpg",
+    "price": "1230"
+  },
+  {
+    "pid": "c95871ac-dd30-4f60-8d41-de1608ac3f03",
+    "pname": "Broom & dustpan",
+    "pimage": "https://image.made-in-china.com/2f0j00sZARjDQqkhkS/Household-Soft-Hair-Broom-Set-Dustpan-with-Toothed-Broom-Garbage-Shovel-Broom-Dustpan-Set.jpg",
+    "price": "500"
+  },
+  {
+    "pid": "6f54c02a-61e7-4ca2-9e81-f91e0472e307",
+    "pname": "Face masks",
+    "pimage": "https://news.llu.edu/sites/news.llu.edu/files/styles/crop_featured_image/public/screen_shot_2020-08-11_at_9.15.07_am.png?itok=A_MI3e8F",
+    "price": "1500"
+  }
+]
