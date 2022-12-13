@@ -1,2 +1,2 @@
 # e-commerce
-E-commerce test
+E-commerce simple application

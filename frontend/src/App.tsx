@@ -33,7 +33,7 @@ const App = () => {
             <Route
               path='/checkout'
               element={
-                !carts?.length ? <Navigate to={"/"} /> : <CheckoutPage />
+                false ? <Navigate to={"/"} /> : <CheckoutPage />
               }
             />
             <Route path='*' element={<NotFound />} />
