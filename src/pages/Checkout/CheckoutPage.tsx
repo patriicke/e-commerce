@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useEffect } from "react";
 
 const CheckoutPage = () => {
-  return (
-    <div>CheckoutPage</div>
-  )
-}
+  useEffect(() => {
+    document.title = "Jurassic Store | Checkout";
+  }, []);
 
-export default CheckoutPage
+  return <div>CheckoutPage</div>;
+};
+
+export default CheckoutPage;

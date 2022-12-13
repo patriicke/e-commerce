@@ -3,7 +3,7 @@ import React from 'react'
 const Product = ({product}:{product:any}) => {
   return (
     
-<div className="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+<div className="w-full max-w-[18em] bg-white rounded-lg border shadow-xl dark:bg-gray-800 dark:border-gray-700 flex justify-between flex-col">
     <img className="p-8 rounded-t-lg"  src={ product.pimage} alt="product image" />
     <div className="px-5 pb-5">
         <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{product.pname}</h5>
