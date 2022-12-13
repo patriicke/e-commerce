@@ -1,40 +1,48 @@
-import {  createContext, useEffect, useState } from "react";
-import  {ToastContainer} from "react-toastify"
+import { createContext, useEffect, useState } from "react";
+import { ToastContainer } from "react-toastify";
 import {
   BrowserRouter as Router,
   Routes,
-  Route
+  Route,
+  Navigate
 } from "react-router-dom";
 import NotFound from "./pages/NotFound/NotFound";
 import HomePage from "./pages/Home/HomePage";
 import CheckoutPage from "./pages/Checkout/CheckoutPage";
-import data from "./data/data.json"
-import {useDispatch} from "react-redux"
+import data from "./data/data.json";
+import { useDispatch, useSelector } from "react-redux";
 import { setProductsRedux } from "./redux/slices/productSlice";
+import "react-toastify/dist/ReactToastify.css";
 
-export const ProductContext:any = createContext({});
+export const ProductContext: any = createContext({});
 
 const App = () => {
-  const dispatch = useDispatch()
-  const [products, setProducts] = useState<any>([])
+  const dispatch = useDispatch();
+  const [products, setProducts] = useState<any>([]);
   useEffect(() => {
-    dispatch(setProductsRedux(data))
-    setProducts(data)
-  }, [])
+    dispatch(setProductsRedux(data));
+    setProducts(data);
+  }, []);
+  const { carts } = useSelector((state: any) => state?.cart);
   return (
     <>
-    <ProductContext.Provider value={{products, setProducts}}>
+      <ProductContext.Provider value={{ products, setProducts }}>
         <Router>
           <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/checkout" element={<CheckoutPage />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path='/' element={<HomePage />} />
+            <Route
+              path='/checkout'
+              element={
+                !carts?.length ? <Navigate to={"/"} /> : <CheckoutPage />
+              }
+            />
+            <Route path='*' element={<NotFound />} />
           </Routes>
         </Router>
-    </ProductContext.Provider>
+      </ProductContext.Provider>
       <ToastContainer
         position='top-right'
-        autoClose={5000}
+        autoClose={2500}
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick
@@ -43,8 +51,8 @@ const App = () => {
         draggable
         pauseOnHover
         theme='colored'
-        />
-        </>
+      />
+    </>
   );
 };
 
