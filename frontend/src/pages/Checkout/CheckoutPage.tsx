@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { toast } from "react-toastify";
+import { api } from "../../api/api";
 
 const CheckoutPage = () => {
   useEffect(() => {
@@ -14,23 +15,23 @@ const CheckoutPage = () => {
   const [address, setAddress] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      console.log(name, email, address);
-      toast.success("Checkout sent successfully!");
-      setTimeout(() => {
-        window.location.replace("/");
-      }, 2500);
+      if (!name || !email || address || !carts?.length) {
+        toast.error("Provide all details!");
+        return;
+      }
     } catch (error) {
       console.log(error);
+      toast.error("An error occured. Try again later!");
     } finally {
       setLoading(false);
     }
   };
 
   return (
-    <div className='h-screen w-screen flex items-center justify-center gap-40'>
+    <div className='h-screen w-screen flex flex-col lg:flex-row                                                                           items-center justify-center gap-40'>
       <div className='flex flex-col gap-12'>
         <h1 className='text-3xl font-semibold text-gray-600'>
           Checkout & Payment
@@ -99,7 +100,8 @@ const CheckoutPage = () => {
             </div>
             <button
               type='submit'
-              className='w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-2 focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 font-semibold'
+              className='w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-2 focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 font-semibold disabled:bg-gray-500'
+              disabled={loading}
             >
               Confirm & Pay
             </button>

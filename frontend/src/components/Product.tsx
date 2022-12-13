@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 import { useDispatch } from "react-redux";
 import { toast } from "react-toastify";
 import { addProduct } from "../redux/slices/cartSlice";
